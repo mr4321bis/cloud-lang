@@ -3,5 +3,6 @@ pool: Default
 
 steps:
   - task: Docker@2
-    containerRegistry: vanadakana.azurecr.io
-    command: 'buildAndPush'
+    inputs:
+      containerRegistry: vanadakana.azurecr.io
+      command: 'buildAndPush'
