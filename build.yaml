@@ -1,2 +1,5 @@
+
+pool: vanadakana-agent-self-hosted
+
 steps:
 - bash: echo "Hello world"
