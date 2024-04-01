@@ -4,5 +4,5 @@ pool: Default
 steps:
   - task: Docker@2
     inputs:
-      containerRegistry: vanadakana.azurecr.io
+      containerRegistry: vanadakana-service-conn
       command: 'buildAndPush'
