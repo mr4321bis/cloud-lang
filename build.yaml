@@ -2,4 +2,6 @@
 pool: Default
 
 steps:
-- bash: echo "Hello world"
+  - task: Docker@2
+    containerRegistry: vanadakana.azurecr.io
+    command: 'buildAndPush'
